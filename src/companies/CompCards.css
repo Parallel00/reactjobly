@@ -1,0 +1,14 @@
+.CompCards {
+  max-height: 250px;
+  margin-bottom: 1rem;
+  color: inherit;
+  border: 1px solid;
+}
+
+.CompCards img {
+  width: 50px;
+}
+
+.CompCards:hover {
+  text-decoration: none;
+}
