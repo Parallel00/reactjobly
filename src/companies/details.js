@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import JoblyApi from "../api/api";
-import CompCards from "../jobs/CompCards";
+import CompCards from "../companies/compcards";
 
 function CompanyDetails() {
   const { handle } = useParams();
   const [compDt, setData] = useState(null);
 
   useEffect(() => {
-    function fetchcompDt() {
+    async function fetchcompDt() {
       const data = await JoblyApi.getCompany(handle);
       setData(data);
     }

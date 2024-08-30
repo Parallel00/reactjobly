@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./mainpg.css";
-import UserContext from "../accts/UserContext";
+import UserContext from "../accts/userCntx";
 
 
 function MainPage() {

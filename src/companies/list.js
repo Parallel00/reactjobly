@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import SearchForm from "../common/SearchForm";
+//import SearchForm from "../common/SearchForm";
 import JoblyApi from "../api/api";
-import OccuCard from "./cardlist";
-import LoadingSpinner from "../common/LoadingSpinner";
+import OccuCard from "../jobs/cardlist";
 
 
 function CompanyList() {
@@ -25,7 +24,7 @@ function CompanyList() {
 
   return (
       <div className="CompanyList col-md-8 offset-md-2">
-        <SearchForm searchFor={search} />
+        //<SearchForm searchFor={search} />
         {companies.length
             ? (
                 <div className="CompanyList-list">

@@ -1,9 +1,9 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import MainPage from "../MainPage/MainPage";
-import CompanyList from "../companies/CompanyList";
+import MainPage from "../homepage/mainpg";
+import CompanyList from "../companies/list";
 import JobList from "../jobs/joblist";
-import Dets from "../companies/Dets";
+import Dets from "../companies/details";
 import LoginForm from "../accts/loginfrm";
 import UserProfileFrm from "../profiles/usrprofform";
 import UserAccountCreationForm from "../accts/creatacctfrm";

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Search from "../common/SearchForm";
+//import Search from "../common/SearchForm";
 import JoblyApi from "../api/api";
 import CardList from "./cardlist";
 
@@ -21,7 +21,7 @@ function JobList() {
 
   return (
       <div className="JobList col-md-8 offset-md-2">
-        <Search searchFor={search} />
+        //<Search searchFor={search} />
         {jobs.length
             ? <CardList jobs={jobs} />
             : <p className="lead">No results match your query.</p>

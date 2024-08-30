@@ -4,7 +4,7 @@ import useLocalStorage from "./hooks/useLocalStorage";
 import Navigation from "./routes/nav";
 import Routes from "./routes/routes";
 import JoblyApi from "./api/api";
-import UserContext from "./auth/UserContext";
+import UserContext from "./accts/userCntx";
 import jwt from "jsonwebtoken";
 
 export const TOKEN_STORAGE_ID = "jobly-token";

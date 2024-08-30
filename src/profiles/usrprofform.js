@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import Alert from "../common/alert";
 import JoblyApi from "../api/api";
 import UserContext from "../accts/userCntx";
-import useTimedToggle from "../hooks/useTimedMessage";
+import useTimedToggle from "../hooks/useTimedToggle";
 
 function UserProfileFrm() {
   const { currUser, setCurrUser } = useContext(UserContext);

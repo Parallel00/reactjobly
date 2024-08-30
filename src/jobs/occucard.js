@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
-import "./OccuCard.css";
-import UserContext from "../accts/UserContext";
+import "./occucard.css";
+import UserContext from "../accts/userCntx";
 
 function OccuCard({ id, title, salary, equity, companyName }) {
   const { hasAppliedToJob, applyToJob } = useContext(UserContext);
